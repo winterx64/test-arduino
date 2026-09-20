@@ -8,6 +8,7 @@ public:
     USMP_Demo();
     bool begin();
     String getVersion();
+    int computeChecksum(const uint8_t *data, int len);
 };
 
 #endif // USMP_DEMO_H
